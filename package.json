@@ -1,0 +1,10 @@
+{
+  "name": "apryse-node-samples",
+  "version": "1.0.0",
+  "description": "A repository containing node samples using the Apryse SDK",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/jgozner",
+  "license": "ISC"
+}
