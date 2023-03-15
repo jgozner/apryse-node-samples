@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <style>
+            .footer{
+                background-color: green;
+            }
+            @media print {
+                .footer:first-of-type{
+                    background-color: red;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="footer" style="-webkit-print-color-adjust: exact; width: 100%; font-family: Arial; font-size: 12px; font-weight: 700;">
+            <div  style="width: 100%; display: flex; justify-content: space-between;">
+                <div style="padding-left: 5px;">Confidential</div>
+                <div style="padding-right: 5px;">Page <span class=pageNumber></span>/<span class=totalPages></span></div>
+            </div>
+        </div>
+    </body>
+</html>
