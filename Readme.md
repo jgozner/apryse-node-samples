@@ -3,12 +3,12 @@
 This repository contains more advanced samples using the @pdftron/pdfnet-node SDK.
 
 # Summary
-- [Conversions](##converions)
-  - [HTML to PDF]()
+- [Conversions](#conversions)
+  - [HTML to PDF](#html-to-pdf)
 
 ## Setup
 
-Make sure to insert your license key into the license-key.js file before running any samples.
+Make sure to insert your license key into the license-key.json file before running any samples.
 
 ## **Conversions**
 

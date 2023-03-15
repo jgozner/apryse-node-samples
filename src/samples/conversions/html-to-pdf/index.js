@@ -1,6 +1,6 @@
 const { PDFNet } = require('@pdftron/pdfnet-node');
 const { Files } = require('../../../files/index');
-const { LicenseKey } = require('../../../../license-key');
+const { license_key} = require('../../../../license-key.json');
 const path = require('path');
 const fs = require('fs');
 
@@ -47,6 +47,6 @@ const main = async () =>{
     await doc.save(Files.HTML_TO_PDF.OUTPUT_PATH, SDFDoc.SaveOptions.e_incremental)
 }
 
-PDFNet.runWithCleanup(main, LicenseKey)
+PDFNet.runWithCleanup(main, license_key)
     .catch((err) => console.log("Error:", err))
     .then(() => PDFNet.shutdown());
