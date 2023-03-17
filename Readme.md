@@ -18,7 +18,15 @@ The Apryse SDK offers a comprehensive set of conversions capabilities.
    Apryse SDK offers the ability to convert HTML to PDF with high fidelity and accuracy using our HTML2PDF module. The sample covers the following:
 
    -  Header and Footer templating as listed on the [chromium docs](https://chromedevtools.github.io/devtools-protocol/tot/Page/#method-printToPDF)
-   - Table of contents linking to other pages // TODO
+   - Replacing placeholders with updated page numbers to generate a dynamic Table of Contents
+    
+    <br />
+
+    ### **Sample output of the script**
+
+    Blank Table of Contents    |  Updated Table of Contents
+    :-------------------------:|:-------------------------:
+    ![](./src/files//screenshots/html-to-pdf-toc-blank.jpg)  |  ![](./src/files//screenshots/html-to-pdf-toc-updated.jpg)
 
    <br />To run this sample use the following command
    ```bash
